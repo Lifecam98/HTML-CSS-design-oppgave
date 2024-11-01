@@ -14,7 +14,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Lifecam98/HTML-CSS-design-oppgave]
-- Live Site URL: [lifecam98.github.io/html-css-design-oppgave/]
+- Live Site URL: [https://lifecam98.github.io/HTML-CSS-design-oppgave/]
 
 ### Built with
 
