@@ -1,3 +1,10 @@
+:root {
+	--cyan: hsl(179, 62%, 43%);
+	--brightYellow: hsl(71, 73%, 54%);
+	--lightGray: hsl(204, 43%, 93%);
+	--grayishBlue: hsl(218, 22%, 67%);
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -9,7 +16,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: gray;
+	background-color: var(--lightGray);
 	transition: 0.2;
 	font-family: "Karla", Georgia, "Times New Roman", Times, serif;
 }
@@ -34,8 +41,8 @@ h2 {
 }
 
 button {
-	background-color: hsl(71, 73%, 54%);
-	color: hsl(0, 0%, 100%);
+	background-color: var(--brightYellow);
+	color: var(--lightGray);
 	font-size: 15px;
 	font-weight: bolder;
 	padding: 10px 20px;
@@ -64,24 +71,24 @@ button {
 }
 
 .communityHeader {
-	color: hsl(179, 62%, 43%);
+	color: var(--cyan);
 	margin-bottom: 15px;
 	font-size: 18px;
 }
 
 .communityPromise {
-	color: hsl(71, 73%, 54%);
+	color: var(--brightYellow);
 	margin-bottom: 15px;
 }
 
 .communityText {
-	color: hsla(217, 22%, 67%, 75%);
+	color: var(--grayishBlue);
 	line-height: 22px;
 	font-size: 15px;
 }
 
 .pricing {
-	background-color: hsl(179, 61%, 41%);
+	background-color: hsl(179, 62%, 41%);
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
@@ -89,31 +96,31 @@ button {
 }
 
 .pricingHeader {
-	color: hsl(0, 0%, 100%);
+	color: var(--lightGray);
 	margin-bottom: 10px;
 }
 
 .pricingSub {
-	color: hsla(0, 0%, 100%, 50%);
+	color: hsla(204, 43%, 93%, 50%);
 	margin-bottom: 10px;
 	display: flex;
 	align-items: center;
 }
 
 .pricingSub span {
-	color: hsl(0, 0%, 100%);
+	color: var(--lightGray);
 	font-size: 25px;
 	margin-right: 10px;
 }
 
 .pricingText {
-	color: hsla(0, 0%, 100%, 75%);
+	color: var(--lightGray);
 	margin-bottom: 10px;
 	font-size: 15px;
 }
 
 .whyUs {
-	background-color: hsl(179, 62%, 43%);
+	background-color: var(--cyan);
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
@@ -122,12 +129,12 @@ button {
 }
 
 .whyUsHeader {
-	color: hsl(0, 0%, 100%);
+	color: var(--lightGray);
 	margin-bottom: 10px;
 }
 
 .whyUsList {
-	color: hsla(0, 0%, 100%, 70%);
+	color: hsla(204, 43%, 93%, 70%);
 	line-height: 20px;
 	font-size: 15px;
 }
