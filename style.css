@@ -1,0 +1,200 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: gray;
+	transition: 0.2;
+	font-family: "Karla", Georgia, "Times New Roman", Times, serif;
+}
+
+article {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+li {
+	list-style: none;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+button {
+	background-color: hsl(71, 73%, 54%);
+	color: hsl(0, 0%, 100%);
+	font-size: 15px;
+	font-weight: bolder;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: 0;
+	height: 45px;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+.joinCommunity {
+	background-color: hsl(0, 0%, 100%);
+	padding: 20px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.communityHeader {
+	color: hsl(179, 62%, 43%);
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+.communityPromise {
+	color: hsl(71, 73%, 54%);
+	margin-bottom: 15px;
+}
+
+.communityText {
+	color: hsla(217, 22%, 67%, 75%);
+	line-height: 22px;
+	font-size: 15px;
+}
+
+.pricing {
+	background-color: hsl(179, 61%, 41%);
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.pricingHeader {
+	color: hsl(0, 0%, 100%);
+	margin-bottom: 10px;
+}
+
+.pricingSub {
+	color: hsla(0, 0%, 100%, 50%);
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.pricingSub span {
+	color: hsl(0, 0%, 100%);
+	font-size: 25px;
+	margin-right: 10px;
+}
+
+.pricingText {
+	color: hsla(0, 0%, 100%, 75%);
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+.whyUs {
+	background-color: hsl(179, 62%, 43%);
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 0px 0px 15px 15px;
+}
+
+.whyUsHeader {
+	color: hsl(0, 0%, 100%);
+	margin-bottom: 10px;
+}
+
+.whyUsList {
+	color: hsla(0, 0%, 100%, 70%);
+	line-height: 20px;
+	font-size: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+	article {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		width: 600px;
+		height: 450px;
+		align-items: stretch;
+	}
+	.joinCommunity {
+		grid-column: 1 / -1;
+	}
+	.communityHeader {
+		margin-left: 15px;
+		margin-bottom: 20px;
+		font-size: 25px;
+	}
+	.communityPromise {
+		margin-left: 15px;
+	}
+	.communityText {
+		margin-left: 15px;
+	}
+	.pricing {
+		grid-column: 1;
+		border-radius: 0px 0px 0px 15px;
+	}
+	.pricingHeader {
+		padding-bottom: 15px;
+		margin: 0;
+		margin-left: 15px;
+	}
+	.pricingSub {
+		padding-bottom: 12px;
+		margin: 0px;
+		margin-left: 15px;
+	}
+	.pricingText {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-left: 15px;
+	}
+	.whyUs {
+		grid-column: 2;
+		border-radius: 0px 0px 15px 0px;
+	}
+	.whyUsHeader {
+		margin-left: 15px;
+	}
+	.whyUsList {
+		margin-left: 15px;
+	}
+	button {
+		height: 50px;
+		width: 200px;
+		margin-left: 15px;
+	}
+	.desktop-br {
+		display: block;
+	}
+}
+@media (max-width: 767px) {
+	.desktop-br {
+		display: none;
+	}
+}
