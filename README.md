@@ -16,8 +16,6 @@ Users should be able to:
 - Solution URL: [https://github.com/Lifecam98/HTML-CSS-design-oppgave]
 - Live Site URL: [lifecam98.github.io/html-css-design-oppgave/]
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
